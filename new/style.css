@@ -1,0 +1,128 @@
+body {
+    background: #000;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: none;
+}
+
+header nav div ul li a {
+    font-family: 'Noto Serif Display', serif;
+
+}
+
+.img12 {
+    position: relative;
+    left: -200px;
+    width: 550px;
+    border-radius: 30%;
+}
+
+.motivasi {
+    position: relative;
+    right: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    width: 400px;
+    font-weight: bolder;
+}
+
+header {
+    background: url(./src/1.jpeg);
+    height: 800px;
+    background-size: cover;
+    padding-bottom: none;
+    background-position: center;
+    background-repeat: none;
+}
+
+.mail {
+    position: relative;
+    top: 3.5px;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+}
+
+.isi {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    top: -65px;
+    text-align: justify;
+}
+
+
+.img2 {
+    position: relative;
+    text-align: right;
+}
+
+.isi1 {
+    font-size: 20px;
+    color: rgb(163, 255, 255);
+}
+
+.image,
+.isi1,
+.potrait1 {
+    position: relative;
+    left: -180px;
+}
+
+.nama {
+    position: relative;
+    right: 50px;
+}
+
+.Potrait {
+    position: relative;
+    top: -50px;
+    color: rgb(8, 123, 255);
+}
+
+
+@media screen and (max-width : 992px) {
+    .Potrait {
+        position: relative;
+        top: 0;
+    }
+
+    .nama {
+        font-size: 30px;
+        left: 0px;
+    }
+
+    .image {
+        position: relative;
+        padding-top: 100px;
+    }
+
+    .isi {
+        position: relative;
+        top: 0;
+    }
+
+    .img2 {
+        text-align: left;
+    }
+
+    .image,
+    .isi1,
+    .potrait1 {
+        position: relative;
+        left: 0px;
+    }
+
+    .motivasi {
+        position: relative;
+        right: 0px;
+    }
+
+    .img12 {
+        position: relative;
+        left: -20px;
+    }
+}
