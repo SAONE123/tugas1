@@ -34,6 +34,11 @@ nav>ul>li {
 
 }
 
+.container {
+    padding: 50px;
+    background-color: #dedede;
+}
+
 .grid-container {
     display: grid;
     background-color: #d7dfe6;
@@ -67,7 +72,7 @@ nav>ul>li {
 
 .item1 {
     position: relative;
-    margin-left: -100px;
+    margin-left: -50px;
     padding-top: 0;
     font-size: 30px;
     text-align: start;
@@ -119,7 +124,7 @@ label {
 }
 
 input {
-    width: 200vh;
+    width: 185vh;
     height: 30px;
 }
 
@@ -127,4 +132,11 @@ input {
     background: green;
     font-weight: bold;
     height: 40px;
+    position: relative;
+    left: 4px;
+}
+
+.input {
+    position: relative;
+    left: -30px;
 }
