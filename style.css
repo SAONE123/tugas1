@@ -124,7 +124,7 @@ label {
 }
 
 input {
-    width: 185vh;
+    width: -webkit-fill-available;
     height: 30px;
 }
 
@@ -133,10 +133,22 @@ input {
     font-weight: bold;
     height: 40px;
     position: relative;
-    left: 4px;
+    width: -webkit-fill-available;
 }
 
 .input {
     position: relative;
     left: -30px;
+}
+
+
+@media screen and (min-width : 720px) {
+    .item1 {
+        position: relative;
+        margin-left: 0px;
+        padding-top: 0;
+        font-size: 30px;
+        text-align: start;
+    }
+
 }
