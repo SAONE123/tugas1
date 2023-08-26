@@ -22,14 +22,21 @@
     <div class="container">
       <div class="grid-container">
         <img src="./abab.jpg" class="grid-item pic" alt="" />
-        <h1 class="grid-item item1" id="input_nama">
+        <p class="grid-item item1" id="input_nama">
           ALFIAN N.S
           <p class="small-item" id="input_role">front end developer</p>
-          <button class="kontak-btn">Kontak</button>
+          <button class="kontak-btn">
+            <a
+              class="kontak-btn"
+              style="text-decoration: none; font-weight: bolder"
+              href="https://api.whatsapp.com/send?phone=625691941488"
+              >Kontak</a
+            >
+          </button>
           <button class="resume-btn">
             <a href="./new/index.html" style="text-decoration: none">Resume</a>
           </button>
-        </h1>
+        </p>
         <div
           class="grid-item"
           style="border-left: 2px solid #b6b6b6; height: unset"
@@ -45,7 +52,7 @@
           <p id="input_age" class="inputan">none</p>
           <p id="input_lokasi" class="inputan">none</p>
           <p id="input_years" class="inputan">none</p>
-          <p id="input_email" class="inputan">none</p>
+          <p id="input_email" class="inputan"></p>
         </div>
       </div>
     </div>
@@ -79,7 +86,7 @@
         <br />
         <br />
         <label for="email" class="input">Email</label>
-        <input type="text" id="email " required />
+        <input type="text" id="email" required />
         <br />
         <br />
         <input type="submit" value="Select" onclick="input()" class="select" />

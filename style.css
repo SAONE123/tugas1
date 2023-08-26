@@ -72,9 +72,9 @@ nav>ul>li {
 
 .item1 {
     position: relative;
+    top: -30px;
     margin-left: -50px;
-    padding-top: 0;
-    font-size: 30px;
+    font-size: 30%;
     text-align: start;
 }
 
