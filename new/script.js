@@ -11,7 +11,6 @@ function viewpic() {
     pop.style.display = "none";
   } else {
     pop.style.display = "block";
-    alert("please click again for close photos windows");
   }
   popin = !popin;
 }
