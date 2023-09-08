@@ -14,9 +14,3 @@ function input() {
   document.getElementById("input_years").innerText = years.value;
   document.getElementById("input_email").innerText = email.value;
 }
-
-if(nama).style.value = true{
-  Text.style.size = ("20px");
-}else{
-  Text.style.size = ("30px");
-}
