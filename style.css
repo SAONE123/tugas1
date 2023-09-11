@@ -2,6 +2,11 @@
     --main-bg-color: rgb(252, 252, 252);
 }
 
+.container {
+    padding: 30px 10px 0 10px;
+    background-color: #dedede;
+}
+
 nav a {
     text-decoration: none;
     color: #000;
@@ -44,7 +49,7 @@ nav>ul>li {
     width: cover;
     height: auto;
     background: #fff;
-    padding: 30px;
+    padding: 10px;
     justify-content: space-around;
 }
 
@@ -52,7 +57,7 @@ nav>ul>li {
     background: blue;
     background: var(--main-bg-color);
     position: relative;
-    left: -13%;
+    left: -226px;
 }
 
 .flex2-item {
@@ -68,17 +73,21 @@ nav>ul>li {
     height: 200px;
     position: relative;
     left: -8%;
+    top: 10px;
 }
+
 
 .item1 {
     position: relative;
-    top: -28px;
+    top: -9px;
     margin-left: -50px;
     font-size: 160%;
     text-align: start;
 }
 
 .small-item {
+    margin-block-start: 0px;
+    margin-block-end: 20px;
     font-size: 20px;
     font-weight: 10;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifArial Narrow Bold'
@@ -112,6 +121,12 @@ nav>ul>li {
     top: -30px;
 }
 
+.line {
+    border-left: 3px solid #b6b6b6;
+    height: 180px;
+    padding: 10px
+}
+
 label {
     font-weight: bold;
     padding: 30px;
@@ -121,6 +136,10 @@ label {
 input {
     width: -webkit-fill-available;
     height: 30px;
+}
+
+h1 {
+    margin-block-start: 0px;
 }
 
 .select {
@@ -140,7 +159,7 @@ input {
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 200px;
+    right: 350px;
 }
 
 
@@ -171,15 +190,16 @@ input {
     }
 
     .pic {
-        left: 0px;
+        top: 10px;
+        left: 15px;
     }
 
     .flex-item {
-        top: -40px;
+        top: -6px;
     }
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1240px) {
     .flex-container {
         display: flex;
         flex-direction: column;
@@ -202,5 +222,13 @@ input {
     .flex2-item {
         width: 100px;
         left: -65px;
+    }
+
+    nav>ul {
+        text-align: center;
+    }
+
+    .line {
+        border-left: 0px solid #b6b6b6;
     }
 }
