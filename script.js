@@ -1,4 +1,4 @@
-var nama = document.getElementById("nama");
+var nama = document.getElementById("nama"); //tempat inputan keluar
 var role = document.getElementById("role");
 var avability = document.getElementById("avability");
 var age = document.getElementById("age");
@@ -7,6 +7,7 @@ var years = document.getElementById("years");
 var email = document.getElementById("email");
 function input() {
   document.getElementById("input_nama").innerText = nama.value;
+  //temapt inputan masuk
   document.getElementById("input_role").innerText = role.value;
   document.getElementById("input_avability").innerText = avability.value;
   document.getElementById("input_age").innerText = age.value + " " + "Tahun";
