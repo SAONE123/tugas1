@@ -136,6 +136,7 @@ label {
 input {
     width: -webkit-fill-available;
     height: 30px;
+    width: 100%;
 }
 
 h1 {
